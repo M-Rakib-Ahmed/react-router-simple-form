@@ -1,21 +1,12 @@
-
+import Grandpa from "./components/Grandpa/Grandpa";
 import './App.css'
-import RefForm from './components/RefForm/RefForm'
-// import StatefulForm from './components/StatefulForm/StatefulForm'
-// import SimpleForm from './SimpleForm/SimpleForm'
 
-function App() {
-  
+const App = () => {
   return (
-    <>
-      
-      <h1>Vite + React</h1>
-      {/* <SimpleForm></SimpleForm> */}
-      {/* <StatefulForm></StatefulForm> */}
-      <RefForm></RefForm>
-      
-    </>
-  )
-}
+    <div>
+      <Grandpa></Grandpa>
+    </div>
+  );
+};
 
-export default App
+export default App;
